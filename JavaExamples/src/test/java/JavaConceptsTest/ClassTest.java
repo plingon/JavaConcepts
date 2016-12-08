@@ -89,6 +89,20 @@ public class ClassTest {
         AutoParent ChildConstructorOverloaded = new AutoParent("ChildConstructorMake");
         System.out.println("Object make passed via constructor : "+ChildConstructorOverloaded.Make);
 
+        /*
+        package JavaConcepts;
+
+        public class FreshJuice {
+        public enum FreshJuiceSizes {SMALL,MEDIUM,LARGE}
+        public JavaConcepts.FreshJuice.FreshJuiceSizes size;
+        }
+
+        */
+
+         FreshJuice lemonade = new FreshJuice();
+         lemonade.size= FreshJuice.FreshJuiceSizes.MEDIUM;
+         String juiceMessage = String.format("Juice size %s was selected",lemonade.size);
+        System.out.println(juiceMessage);
 
     }
 }
