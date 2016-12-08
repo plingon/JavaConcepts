@@ -16,6 +16,11 @@ public class Engine {
         this.Size=Size;
         this.HorsePower=HorsePower;
     }
+
+    public void setEngineMaxSpeed()
+    {
+        AutoParent.engineMaxSpeed=100;
+    }
 }
 
 

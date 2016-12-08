@@ -5,7 +5,7 @@ import org.junit.Test;
 /**
  * Created by pling on 05/12/2016.
  */
-public class Day1Test {
+public class DataTypesTest {
 
 
     /**

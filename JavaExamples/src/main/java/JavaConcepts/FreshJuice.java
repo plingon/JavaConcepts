@@ -10,5 +10,7 @@ public class FreshJuice {
 
     public FreshJuiceSizes size;
 
+    public static String JuiceType;
+
 
 }

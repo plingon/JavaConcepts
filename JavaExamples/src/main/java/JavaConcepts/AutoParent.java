@@ -22,6 +22,7 @@ public class AutoParent {
     private String model;
     // Alt+Insert can be used to set the getter setter for private String fields,
     // which helps to hide implementation details
+     static int engineMaxSpeed;
 
     public String getModel()
     {
